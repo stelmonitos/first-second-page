@@ -1,0 +1,15 @@
+
+.intro{
+    background: $white;
+
+    p{
+        width: 70%;
+        margin: 0 auto;
+        padding: 48px 0;
+        font-size: 24px;
+        border-bottom: solid 1px;
+        border-top: solid 1px;
+        color: black;
+        font-family: $font-header;
+    }
+}

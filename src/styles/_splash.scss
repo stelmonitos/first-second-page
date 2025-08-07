@@ -1,0 +1,21 @@
+/* Splash */
+
+.splash{
+    height: 100vh;
+    position: relative;
+    background-image: url(https://i.postimg.cc/NfqwQ22h/pexels-lukas-rodriguez-1845331-17943518-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    i {
+        font-size: 30px;
+        background: $color-main;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 50%;
+        color: $white;
+    }
+}

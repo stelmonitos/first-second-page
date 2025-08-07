@@ -1,0 +1,70 @@
+/* Global */
+@import "../src/styles/variables.scss";
+@import "../src/styles/splash.scss";
+@import "../src/styles/body.scss";
+@import "../src/styles/splash-inner";
+@import "../src/styles/intro";
+@import "../src/styles/about";
+@import "../src/styles/fonts.scss";
+@import "../src/styles/skills";
+@import "../src/styles/gallery";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.page-title{
+    color: $white;
+    font-size: 60px;
+    margin: 48px 0 0 0;
+    position: relative;
+    font-family: $font-header;
+    font-weight: 900;
+    &::after {
+        position: absolute;
+        content: "";
+        bottom: -6px;
+        left: 50%;
+        width: 150px;
+        height: 7px;
+        transform: translateX(-50%);
+        background: $color-main;
+        border-radius: 30px;
+    }
+    
+}
+.page-subtitle{
+    color: $white;
+}
+.section-title{
+    position: relative;
+    font-size: 36px;
+    margin: 0 0 60px 0;
+    font-family: $font-header;
+    font-weight: 600;
+    &::after {
+       position: absolute;
+        content: "";
+        bottom: -12px;
+        left: 50%;
+        width: 50px;
+        height: 6px;
+        transform: translateX(-50%);
+        background: $color-main;
+        border-radius: 30px;
+    }
+}
+
+/*Other (i am lazy)*/
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section{
+    padding: 108px 0;
+}
+
+
